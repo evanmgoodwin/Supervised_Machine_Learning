@@ -22,9 +22,9 @@
 - High Risk Precision Score: 0.01
 - High Risk Recall Score: 0.69
 
+<br>
 
-
-  For this challenge, we were tasked with creating four different supervised machine learning algorithms, and analysing their performance. The the precision scores for high risk values were all 0.01. When looking at the high risk values, this is not necessarily that important, as we're really looking at the recall scores. The recall score in this scenario is more important because we want to detect as many high risk values as possible, even if it means having false positives. Loan applicants who are low risk but were predicted as high risk can always reapply for a loan, but high risk applicants who were predicted as low risk and accepted will have a negative impact on the business.
+  For this challenge, we were tasked with creating four different supervised machine learning algorithms, and analysing their performance. The precision scores for high risk values were all 0.01. When looking at the high risk values, this is not necessarily that important, as we're really looking at the recall scores. The recall score in this scenario is more important because we want to detect as many high risk values as possible, even if it means having false positives. Loan applicants who are low risk but were predicted as high risk can always reapply for a loan, but high risk applicants who were predicted as low risk and accepted will have a negative impact on the business.
   
   Looking at the classification reports, we can see that the F1 vales are impacted by the low precision scores. Most of the F1 scores for all the models are 0.01 or 0.02. For our analysis, we will focus on the balanced accuracy and high risk recall scores.
   
